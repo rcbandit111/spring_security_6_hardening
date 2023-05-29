@@ -7,3 +7,6 @@ spring:
         jwt:
           issuer-uri: https://api3.hireya.org/realms/admin_console_realm
           jwk-set-uri: https://api3.hireya.org/realms/admin_console_realm/protocol/openid-connect/certs
+logging:
+  level:
+    root: DEBUG
